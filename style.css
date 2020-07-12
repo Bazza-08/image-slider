@@ -1,0 +1,57 @@
+* {
+    margin:0;
+    box-sizing: border-box;
+}
+
+body { 
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    max-width: 100%;
+    opacity: 1;
+    transition: opacity .5s;
+}
+
+.fadeOut {
+    opacity: 0;
+    transition: opacity .5s; 
+}
+
+#image_box {
+    width: 600px;
+    height: 400px;
+    border: 5px solid black;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.left {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+}
+
+.right {
+    position: absolute;
+    top: 50%;
+    right: 20%;
+}
+
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    outline: 0;
+}
+
+svg{
+    transition: color 1s;
+}
+
+svg:hover {
+   color: blue; 
+}
